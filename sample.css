@@ -1,0 +1,221 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oleo+Script&family=Quintessential&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Marck+Script&family=Oleo+Script&display=swap');
+
+h2{
+    font-family:'quintessential',cursive;
+    color:rgb(36, 223, 223);
+    text-align: center;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+h2:hover{
+    color:orange;
+}
+h4{
+    font-family: 'quintessential',cursive;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 28px;
+    background: linear-gradient(to right, #3bf74e 11%, #a70280 78%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:#021f55;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; 
+    padding-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width:100%;
+    left:0px;
+    background-color:#0e1d3b;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+h1:hover::after{
+    transform: scaleX(1);
+}
+.headerlogo{
+position: absolute;
+top: 65px;
+left: 70px;
+color:blue;
+transition: 0.5s;
+font-size: 24px;
+z-index: 1;
+text-transform: uppercase;
+}
+.headerlogo:hover {
+    color: #b3a577;
+  }
+.container1{
+    margin-top: 20%;
+    width: 80px;
+    border: 2px solid red;
+}
+
+html{
+    font-size: 2rem;
+}
+
+.custom-img{
+    max-width: 350px;
+    max-height: 380px;
+    padding-top: 30px;
+    border-radius: 60%;
+    filter: grayscale(.2);
+    transition: .3s;
+
+
+}
+
+b{
+    color:#f30c09;
+}
+.custom-img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1) rotate(0deg);
+}
+.span3{
+    color: blueviolet;
+}
+.lidin{
+    max-width: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.colr{
+    border-color: black;
+    border-style:double;
+    border-width: 1.5px;
+}
+.lead{
+    font-size: 30px;
+    font-family:'Cormorant Upright',cursive;
+    font-weight:800;
+    line-height: 2.0;
+    letter-spacing:0px;
+    word-spacing:0px;
+}
+.span2{
+    
+    color:brown;
+}
+h2:hover span{
+    color:rgb(97, 108, 212);
+    text-shadow: 0 0 20px rgb(97, 108, 212),
+                 0 0 30px rgb(97, 108, 212),
+                 0 0 50px rgb(97, 108, 212),
+                 0 0 120px rgb(97, 108, 212);
+}
+.img-circle{
+    border: radius 9px;;
+}
+.line{
+    color: black;
+}
+  .sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #dbadad;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #030303;
+    display: block;
+    transition: 0.3s
+  }
+  
+  .sidenav a:hover, .offcanvas a:focus{
+    color: #b44141;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media (max-width:767px){
+    .h2{
+        font-family:'quintessential',cursive;
+    color:sienna;
+    text-align: center;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding-top: 10px;
+    }
+  }
+@media (max-width : 767px){
+    .custom-img{
+        max-width:75%;
+        height:auto;
+    }
+    .custom-img1{
+        max-width:50%;
+        height:auto;
+    }
+    h2 span{
+        font: size 17px;;
+    }
+    .lead{
+        font-size: 30px;
+        font-family:'Cormorant Upright',cursive;
+        line-height: 1.5;
+        letter-spacing:0px;
+        word-spacing: 1.3px;
+    }.container{
+        width: 100%;
+        height:auto
+    }
+    h1{
+        padding-top:0px;
+    }
+    #greeting,h4{
+        font-size: 26px;
+        background: linear-gradient(to right, #30CF40 11%, #bb1632 63%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+}
